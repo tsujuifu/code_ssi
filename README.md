@@ -9,9 +9,9 @@ SSI is an implementation of <br>
 [Tsu-Jui Fu](https://tsujuifu.github.io/) and [William Yang Wang](https://sites.cs.ucsb.edu/~william/) <br> 
 in North American Chapter of the Association for Computational Linguistics (**NAACL**) 2021 (Short)
 
+<img src='imgs/overview.png' width='60%' />
 
-
-First, the hint module <I>H</I> generates possible hints <I>l</I> for random states <I>s</I>. With <I>s</I>, the policy module <I>P</I> rollouts and step actions <I>a</I>. Then, the reward module <I>R</I> updates <I>P</I> based on the relevance between <I>a</I> and <I>l</I>. With different <I>s</I>, <I>P</I> has the opportunity to learn from various possible hints, and finally serves as a better-initialized policy.
+First, the **hint module <I>H</I> generates possible hints <I>l</I> for random states <I>s</I>**. With <I>s</I>, the policy module <I>P</I> rollouts and step actions <I>a</I>. Then, the **reward module <I>R</I> updates <I>P</I> based on the relevance between <I>a</I> and <I>l</I>**. With different <I>s</I>, <I>P</I> has the opportunity to learn from various possible hints, and **finally serves as a better-initialized policy**.
 
 
 ## Requirement
