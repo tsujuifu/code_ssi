@@ -10,6 +10,8 @@ SSI is an implementation of <br>
 in North American Chapter of the Association for Computational Linguistics (**NAACL**) 2021 (Short)
 
 ## Requirement
+This code is implemented under **Python2**, [PyTorch](https://pytorch.org), and [Tensorflow](https://www.tensorflow.org/). <br>
+Following libraries are also required:
 
 ## Usage
 
