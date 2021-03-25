@@ -4,6 +4,10 @@ An implementation of SSI
 [Paper](https://tsujuifu.github.io/pubs/naacl21_ssi.pdf)
 
 ## Overview
+SSI is an implementation of <br> 
+"Semi-Supervised Policy Initialization for Playing Games with Language Hints" <br> 
+[Tsu-Jui Fu](https://tsujuifu.github.io/) and [William Yang Wang](https://sites.cs.ucsb.edu/~william/) <br> 
+in North American Chapter of the Association for Computational Linguistics (**NAACL**) 2021 (Short)
 
 ## Requirement
 
