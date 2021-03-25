@@ -12,11 +12,10 @@ in North American Chapter of the Association for Computational Linguistics (**NA
 ## Requirement
 This code is implemented under **Python2**, [PyTorch](https://pytorch.org), and [Tensorflow](https://www.tensorflow.org/). <br>
 Following libraries are also required:
++ [gym](https://gym.openai.com/)==0.10.5
++ [atari-py](https://github.com/openai/atari-py)==0.1.1
 
 ## Usage
-
-## Resources
-+ [ExtLang](https://github.com/prasoongoyal/rl-learn)
 
 ## Citation
 ```
@@ -27,3 +26,6 @@ Following libraries are also required:
   year = {2021} 
 }
 ```
+
+## Acknowledgement
++ [ExtLang](https://github.com/prasoongoyal/rl-learn)
