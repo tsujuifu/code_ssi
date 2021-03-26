@@ -21,6 +21,16 @@ Following libraries are also required:
 + [atari-py](https://github.com/openai/atari-py)==0.1.1
 
 ## Usage
++ Semi-Supervised Initialization (SSI)
+```
+python rl/ssi.py --lang_coeff=1.0 --lang_enc=onehot --model_dir=./learn_model
+```
++ Task Training
+```
+wget http://www.cs.utexas.edu/~pgoyal/ijcai19/train_lang_data.pkl -O ./data/train_lang_data.pkl
+wget http://www.cs.utexas.edu/~pgoyal/ijcai19/test_lang_data.pkl -O ./data/test_lang_data.pkl
+python rl/main.py --expt_id=ID_EXPT --descr_id=ID_DESCR --lang_coeff=1.0 --lang_enc=onehot --model_dir=./learn_model
+```
 
 ## Citation
 ```
