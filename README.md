@@ -1,7 +1,7 @@
 # [NAACL'21 (Short)] Semi-Supervised Policy Initialization for Playing Games with Language Hints
 An implementation of SSI
 
-[Paper](https://tsujuifu.github.io/pubs/naacl21_ssi.pdf)
+[Paper](https://tsujuifu.github.io/pubs/naacl21_ssi.pdf) | [Slide](https://tsujuifu.github.io/slides/naacl21_ssi.pdf) | [Video](https://youtu.be/5UbeIKX4voY)
 
 ## Overview
 SSI is an implementation of <br> 
