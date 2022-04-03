@@ -13,7 +13,6 @@ in North American Chapter of the Association for Computational Linguistics (**NA
 
 First, the **hint module <I>H</I> generates possible hints <I>l</I> for random states <I>s</I>**. With <I>s</I>, the policy module <I>P</I> rollouts and step actions <I>a</I>. Then, the **reward module <I>R</I> updates <I>P</I> based on the relevance between <I>a</I> and <I>l</I>**. With different <I>s</I>, <I>P</I> has the opportunity to learn from various possible hints, and **finally serves as a better-initialized policy**.
 
-
 ## Requirement
 This code is implemented under **Python2**, [PyTorch](https://pytorch.org), and [Tensorflow](https://www.tensorflow.org/). <br>
 Following libraries are also required:
