@@ -35,7 +35,7 @@ python rl/main.py --expt_id=ID_EXPT --descr_id=ID_DESCR --lang_coeff=1.0 --lang_
 ```
 @inproceedings{fu2021ssi, 
   author = {Tsu-Jui Fu and William Yang Wang}, 
-  title = {Semi-Supervised Policy Initialization for Playing Games with Language Hints}, 
+  title = {{Semi-Supervised Policy Initialization for Playing Games with Language Hints}}, 
   booktitle = {North American Chapter of the Association for Computational Linguistics (NAACL)}, 
   year = {2021} 
 }
